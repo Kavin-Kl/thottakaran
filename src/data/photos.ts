@@ -17,9 +17,9 @@ export const photos: Record<string, Photo> = {
   },
   "coconut-oil": {
     src: "/products/coconut-oil.jpg",
-    credit: "Dana Tentis / StockSnap",
+    credit: "Rawpixel (colour adjusted)",
     license: "CC0",
-    source: "https://stocksnap.io/photo/oil-white-BXII7UT7EX",
+    source: "https://www.rawpixel.com/image/3337957/free-photo-image-bottle-alcoholic-beverage-alcohol",
   },
   "country-sugar": {
     src: "/products/country-sugar.jpg",
