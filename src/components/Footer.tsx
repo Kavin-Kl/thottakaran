@@ -12,7 +12,7 @@ export default function Footer() {
     <footer className="bg-forest text-cream">
       <div className="mx-auto grid max-w-7xl gap-10 px-5 py-16 md:grid-cols-4">
         <div className="md:col-span-2">
-          <Logo light />
+          <Logo light className="h-14 w-auto" />
           <p className="mt-4 max-w-md text-cream/70">
             Where humans meet nature. Organic and only organic. Natural, and
             everything natural — nothing beyond.
@@ -27,7 +27,7 @@ export default function Footer() {
         </div>
 
         <div>
-          <h3 className="font-display text-lg">Explore</h3>
+          <h3 className="font-display text-lg font-semibold">Explore</h3>
           <ul className="mt-4 space-y-2 text-cream/70">
             <li><Link href="/about" className="hover:text-cream">Our Story</Link></li>
             <li><Link href="/products" className="hover:text-cream">Products</Link></li>
@@ -38,7 +38,7 @@ export default function Footer() {
         </div>
 
         <div>
-          <h3 className="font-display text-lg">Get in touch</h3>
+          <h3 className="font-display text-lg font-semibold">Get in touch</h3>
           <ul className="mt-4 space-y-2 text-cream/70">
             <li><Link href="/contact" className="hover:text-cream">Contact us</Link></li>
             <li>
@@ -54,7 +54,7 @@ export default function Footer() {
         </div>
       </div>
       <div className="border-t border-cream/10 py-6 text-center text-sm text-cream/50">
-        © <Year /> Thottakaran. Grown by nature, picked by hand.
+        © <Year /> Thottakaran Agro Tech Products. Grown by nature, picked by hand.
       </div>
     </footer>
   );

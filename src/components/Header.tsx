@@ -22,8 +22,13 @@ export default function Header() {
     href === "/" ? pathname === "/" : pathname.startsWith(href);
 
   return (
-    <header className="sticky top-0 z-50 border-b border-forest/10 bg-cream/90 backdrop-blur">
-      <div className="mx-auto flex max-w-7xl items-center justify-between px-5 py-4">
+    <header className="sticky top-0 z-50 bg-white/95 shadow-[0_1px_0_rgba(12,58,38,0.08)] backdrop-blur">
+      <div className="bg-moss text-center text-xs font-semibold tracking-wide text-cream">
+        <p className="mx-auto max-w-7xl px-5 py-2">
+          100% Organic · 100% Natural · Preservative-free · Lab-checked, every batch
+        </p>
+      </div>
+      <div className="mx-auto flex max-w-7xl items-center justify-between gap-6 px-5 py-3">
         <Logo />
 
         <nav className="hidden items-center gap-8 lg:flex">
@@ -31,8 +36,10 @@ export default function Header() {
             <Link
               key={link.href}
               href={link.href}
-              className={`text-sm font-medium transition-colors hover:text-moss ${
-                isActive(link.href) ? "text-moss" : "text-ink/70"
+              className={`relative py-1 text-sm font-semibold transition-colors hover:text-moss ${
+                isActive(link.href)
+                  ? "text-moss after:absolute after:inset-x-0 after:-bottom-1 after:h-0.5 after:rounded-full after:bg-moss"
+                  : "text-ink/70"
               }`}
             >
               {link.label}
@@ -42,9 +49,9 @@ export default function Header() {
 
         <Link
           href="/products"
-          className="hidden rounded-full bg-forest px-5 py-2.5 text-sm font-semibold text-cream transition hover:bg-moss lg:inline-block"
+          className="hidden rounded-full bg-moss px-5 py-2.5 text-sm font-semibold text-white transition hover:bg-forest lg:inline-block"
         >
-          Shop Natural
+          Shop products
         </Link>
 
         <button
@@ -65,7 +72,7 @@ export default function Header() {
       </div>
 
       {open && (
-        <nav className="border-t border-forest/10 bg-cream px-5 pb-6 lg:hidden">
+        <nav className="border-t border-forest/10 bg-white px-5 pb-6 lg:hidden">
           {navLinks.map((link) => (
             <Link
               key={link.href}

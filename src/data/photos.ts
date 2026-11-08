@@ -1,90 +1,90 @@
-// Product photos from Wikimedia Commons, used under the licences listed. Credits shown on /credits.
+// Product photos — public-domain (CC0) stock photography. Credits shown on /credits.
 
 import type { Photo } from "./products";
 
 export const photos: Record<string, Photo> = {
-  "groundnuts": {
-    src: "/products/groundnuts.jpg",
-    credit: "Thamizhpparithi Maari / Wikimedia Commons",
-    license: "CC BY-SA 4.0",
-    source: "https://commons.wikimedia.org/wiki/File:Groundnut_of_Salem.jpg",
-  },
-  "gingelly-oil": {
-    src: "/products/gingelly-oil.jpg",
-    credit: "Dr. Satish Upalkar / Wikimedia Commons",
-    license: "CC BY-SA 4.0",
-    source: "https://commons.wikimedia.org/wiki/File:Sesame_oil_photo.jpg",
-  },
-  "coconut-oil": {
-    src: "/products/coconut-oil.jpg",
-    credit: "deadrat / Wikimedia Commons",
-    license: "CC BY-SA 4.0",
-    source: "https://commons.wikimedia.org/wiki/File:Coconut_oil_bottle_in_the_background_of_dried_coconuts_from_Kaleeswari_Farm.jpg",
-  },
-  "groundnut-oil": {
-    src: "/products/groundnut-oil.jpg",
-    credit: "KISUMAR123 / Wikimedia Commons",
-    license: "CC0",
-    source: "https://commons.wikimedia.org/wiki/File:Groundnut_oil.jpg",
-  },
-  "sesame": {
-    src: "/products/sesame.jpg",
-    credit: "Sanjay ach / Wikimedia Commons",
-    license: "CC BY-SA 3.0",
-    source: "https://commons.wikimedia.org/wiki/File:Sa_white_sesame_seeds.jpg",
-  },
-  "turmeric": {
-    src: "/products/turmeric.jpg",
-    credit: "Shobha Tai Gaydhane / Wikimedia Commons",
-    license: "CC0",
-    source: "https://commons.wikimedia.org/wiki/File:Waigaon_Turmeric_fingers_in_dried_form.jpg",
-  },
-  "raw-turmeric": {
-    src: "/products/raw-turmeric.jpg",
-    credit: "Schlawensko / Wikimedia Commons",
-    license: "CC BY-SA 4.0",
-    source: "https://commons.wikimedia.org/wiki/File:Turmeric_rhizome.jpg",
-  },
-  "turmeric-powder": {
-    src: "/products/turmeric-powder.jpg",
-    credit: "formulatehealth / Wikimedia Commons",
-    license: "CC BY 2.0",
-    source: "https://commons.wikimedia.org/wiki/File:Turmeric_Powder_on_a_Spoon_-_Black_Background.jpg",
-  },
   "cashews": {
     src: "/products/cashews.jpg",
-    credit: "Ranjithkumar Murugesan / Wikimedia Commons",
+    credit: "Rawpixel",
     license: "CC0",
-    source: "https://commons.wikimedia.org/wiki/File:CASHEW_NUTS.jpg",
+    source: "https://www.rawpixel.com/image/5927724/photo-image-public-domain-person-woman",
   },
   "chili": {
     src: "/products/chili.jpg",
-    credit: "Richard Mortel / Wikimedia Commons",
-    license: "CC BY 2.0",
-    source: "https://commons.wikimedia.org/wiki/File:Dried_chillies_4.jpg",
-  },
-  "karpaguni-rice": {
-    src: "/products/karpaguni-rice.jpg",
-    credit: "Fumikas Sagisavas / Wikimedia Commons",
+    credit: "Rawpixel",
     license: "CC0",
-    source: "https://commons.wikimedia.org/wiki/File:Black_rice_(20240221).jpg",
+    source: "https://www.rawpixel.com/image/5913736/image-public-domain-red-food",
+  },
+  "coconut-oil": {
+    src: "/products/coconut-oil.jpg",
+    credit: "Dana Tentis / StockSnap",
+    license: "CC0",
+    source: "https://stocksnap.io/photo/oil-white-BXII7UT7EX",
   },
   "country-sugar": {
     src: "/products/country-sugar.jpg",
-    credit: "Thamizhpparithi Maari / Wikimedia Commons",
-    license: "CC BY-SA 3.0",
-    source: "https://commons.wikimedia.org/wiki/File:An_image_of_jaggery_powder.JPG",
+    credit: "Rawpixel",
+    license: "CC0",
+    source: "https://www.rawpixel.com/image/6017923/brown-sugar-cube-free-public-domain-cc0-photo",
+  },
+  "gingelly-oil": {
+    src: "/products/gingelly-oil.jpg",
+    credit: "Rawpixel",
+    license: "CC0",
+    source: "https://www.rawpixel.com/image/5962471/free-public-domain-cc0-photo",
+  },
+  "groundnut-oil": {
+    src: "/products/groundnut-oil.jpg",
+    credit: "Rawpixel",
+    license: "CC0",
+    source: "https://www.rawpixel.com/image/5927777/photo-image-background-public-domain-black",
+  },
+  "groundnuts": {
+    src: "/products/groundnuts.jpg",
+    credit: "Rawpixel",
+    license: "CC0",
+    source: "https://www.rawpixel.com/image/6033652/pile-peanuts-free-public-domain-cc0-photo",
+  },
+  "karpaguni-rice": {
+    src: "/products/karpaguni-rice.jpg",
+    credit: "Rawpixel",
+    license: "CC0",
+    source: "https://www.rawpixel.com/image/5909719/image-public-domain-black-free",
   },
   "pepper": {
     src: "/products/pepper.jpg",
-    credit: "Misterneedlemouse / Wikimedia Commons",
+    credit: "Rawpixel",
     license: "CC0",
-    source: "https://commons.wikimedia.org/wiki/File:Tellicherry_Black_Peppercorns.jpg",
+    source: "https://www.rawpixel.com/image/5927408/photo-image-background-public-domain-wood",
+  },
+  "raw-turmeric": {
+    src: "/products/raw-turmeric.jpg",
+    credit: "Rawpixel",
+    license: "CC0",
+    source: "https://www.rawpixel.com/image/5963356/free-public-domain-cc0-photo",
+  },
+  "sesame": {
+    src: "/products/sesame.jpg",
+    credit: "U.S. Department of Agriculture / Rawpixel",
+    license: "CC0",
+    source: "https://www.rawpixel.com/image/3259338/free-photo-image-sesame-seeds-lentil",
   },
   "thuyamali-rice": {
     src: "/products/thuyamali-rice.jpg",
-    credit: "Sanjay Acharya / Wikimedia Commons",
-    license: "CC BY-SA 3.0",
-    source: "https://commons.wikimedia.org/wiki/File:Unpolished-rice.jpg",
+    credit: "Bigul Malayi / WordPress Photos",
+    license: "CC0",
+    source: "https://wordpress.org/photos/photo/241691d6e9/",
+  },
+  "turmeric-powder": {
+    src: "/products/turmeric-powder.jpg",
+    credit: "Rawpixel",
+    license: "CC0",
+    source: "https://www.rawpixel.com/image/5970980/free-public-domain-cc0-photo",
+  },
+  "turmeric": {
+    src: "/products/turmeric.jpg",
+    credit: "Bigul Malayi / WordPress Photos",
+    license: "CC0",
+    source: "https://wordpress.org/photos/photo/2706a7b3fe/",
   },
 };

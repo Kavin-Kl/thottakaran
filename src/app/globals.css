@@ -1,14 +1,16 @@
 @import "tailwindcss";
 
+/* Palette built around the Thottakaran logo green (#006F42). */
 :root {
-  --cream: #f7f2e7;
-  --sand: #ece3cf;
-  --forest: #1f3a2b;
-  --moss: #3f6b45;
-  --leaf: #7fa65a;
-  --soil: #6b4a2f;
-  --turmeric: #d99a2b;
-  --ink: #1b2219;
+  --cream: #faf7ef;
+  --sand: #f0e9d8;
+  --forest: #0c3a26; /* deep green for dark sections */
+  --moss: #006f42; /* brand green from the logo */
+  --leaf: #3e9e68;
+  --mint: #e3f1e8;
+  --soil: #8a4b2a;
+  --turmeric: #e8a630;
+  --ink: #14241b;
 }
 
 @theme inline {
@@ -17,6 +19,7 @@
   --color-forest: var(--forest);
   --color-moss: var(--moss);
   --color-leaf: var(--leaf);
+  --color-mint: var(--mint);
   --color-soil: var(--soil);
   --color-turmeric: var(--turmeric);
   --color-ink: var(--ink);
@@ -33,7 +36,18 @@ body {
   color: var(--ink);
 }
 
+/* Display type is a bold grotesk like the logo; emphasis is colour, not italics. */
+@layer base {
+  .font-display {
+    font-weight: 700;
+    letter-spacing: -0.02em;
+  }
+  .font-display em {
+    font-style: normal;
+  }
+}
+
 .grain {
-  background-image: radial-gradient(rgba(31, 58, 43, 0.06) 1px, transparent 1px);
-  background-size: 14px 14px;
+  background-image: radial-gradient(rgba(0, 111, 66, 0.07) 1px, transparent 1px);
+  background-size: 16px 16px;
 }

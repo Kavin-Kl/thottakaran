@@ -13,7 +13,7 @@ export default function CreditsPage() {
       <PageHero
         eyebrow="Photo credits"
         title="Thank you to the photographers."
-        intro="Product photographs on this site are sourced from Wikimedia Commons and used under their open licences."
+        intro="Product photographs on this site are public-domain (CC0) stock photographs, sourced via Openverse."
       />
       <section className="mx-auto max-w-4xl px-5 py-16">
         <ul className="divide-y divide-forest/10">

@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
-import { Fraunces, Manrope } from "next/font/google";
+import { Manrope, Rubik } from "next/font/google";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import "./globals.css";
 
-const display = Fraunces({
+const display = Rubik({
   variable: "--font-display",
   subsets: ["latin"],
 });
