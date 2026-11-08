@@ -102,7 +102,7 @@ export default function Home() {
       {/* Shop by category */}
       <section className="mx-auto max-w-7xl px-5 py-24">
         <div className="flex flex-wrap items-end justify-between gap-6">
-          <SectionHeading eyebrow="Shop by category" title="From our fields to your kitchen." />
+          <SectionHeading eyebrow="Shop by category" title="From our fields to your home." />
           <Link href="/products" className="font-bold text-moss hover:text-forest">
             View all products →
           </Link>
